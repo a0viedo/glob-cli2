@@ -16,16 +16,19 @@
     "glob": "^7.0.3"
   },
   "devDependencies": {
+    "coveralls": "^2.11.9",
     "eslint": "^2.11.1",
     "redtape": "^1.0.0",
     "semantic-release": "^4.3.5",
+    "tap": "^5.7.2",
     "tmp": "0.0.28"
   },
   "scripts": {
     "test": "npm run lint && ./node_modules/.bin/tap test/*.js",
     "lint": "./node_modules/.bin/eslint index.js test bin",
     "coverage": "npm run test -- --coverage-report=lcov",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
   },
   "nyc": {
     "exclude": [
