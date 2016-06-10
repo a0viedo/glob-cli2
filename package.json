@@ -17,8 +17,9 @@
   },
   "devDependencies": {
     "eslint": "^2.11.1",
+    "redtape": "^1.0.0",
     "semantic-release": "^4.3.5",
-    "tap": "^5.7.2"
+    "tmp": "0.0.28"
   },
   "scripts": {
     "test": "npm run lint && ./node_modules/.bin/tap test/*.js",
