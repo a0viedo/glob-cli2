@@ -1,5 +1,5 @@
 const fs = require('fs');
-const test = require('tap').test;
+const test = require('redtape')();
 const expandGlobList = require('../');
 
 test('mock fs', (t) => {
