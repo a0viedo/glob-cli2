@@ -1,6 +1,6 @@
 {
   "name": "glob-cli2",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Expand your globs from the CLI",
   "main": "index.js",
   "bin": {
@@ -50,5 +50,8 @@
     "type": "git",
     "url": "https://github.com/a0viedo/glob-cli2"
   },
-  "bugs": "https://github.com/a0viedo/glob-cli2/issues/"
+  "bugs": "https://github.com/a0viedo/glob-cli2/issues/",
+  "engines": {
+    "node": ">=4"
+  }
 }
