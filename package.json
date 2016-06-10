@@ -45,5 +45,10 @@
     "globbing"
   ],
   "author": "Alejandro Oviedo <alejandro.oviedo.g@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a0viedo/glob-cli2"
+  },
+  "bugs": "https://github.com/a0viedo/glob-cli2/issues/"
 }
