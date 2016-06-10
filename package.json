@@ -1,0 +1,44 @@
+{
+  "name": "glob-cli2",
+  "version": "1.0.0",
+  "description": "Expand your globs from the CLI",
+  "main": "index.js",
+  "bin": {
+    "glob": "./bin/cli.js"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "bin"
+  ],
+  "dependencies": {
+    "bluebird": "^3.4.0",
+    "glob": "^7.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^2.11.1",
+    "semantic-release": "^4.3.5",
+    "tap": "^5.7.2"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/tap test/*.js --cov",
+    "lint": "./node_modules/.bin/eslint index.js test bin",
+    "coverage": "npm run test -- --coverage-report=lcov",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "nyc": {
+    "exclude": [
+      "test",
+      "test{,-*}.js",
+      "test-dist",
+      "node_modules/**"
+    ]
+  },
+  "keywords": [
+    "cli",
+    "glob",
+    "globbing"
+  ],
+  "author": "Alejandro Oviedo <alejandro.oviedo.g@gmail.com>",
+  "license": "MIT"
+}
