@@ -14,6 +14,6 @@ Run `npm install -g glob-cli2`.
 
 ## Usage
 
-Run ``yourCommandLineTool `glob "./**/*"` `` to expand to all the files recursively.
+Run ``yourCommandLineTool $(glob "./**/*") `` to expand to all the files recursively.
 
 ## License
