@@ -16,7 +16,7 @@
     "glob": "^7.0.3"
   },
   "devDependencies": {
-    "coveralls": "^2.11.9",
+    "coveralls": "^3.0.9",
     "eslint": "^2.11.1",
     "redtape": "^1.0.0",
     "semantic-release": "^4.3.5",
