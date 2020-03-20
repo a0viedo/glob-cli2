@@ -19,7 +19,7 @@
     "coveralls": "^3.0.11",
     "eslint": "^2.11.1",
     "redtape": "^1.0.0",
-    "semantic-release": "^4.3.5",
+    "semantic-release": "^17.0.4",
     "tap": "^14.10.7",
     "tmp": "0.0.28"
   },
