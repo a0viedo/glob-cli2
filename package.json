@@ -21,7 +21,7 @@
     "redtape": "^1.0.0",
     "semantic-release": "^17.0.4",
     "tap": "^14.10.7",
-    "tmp": "0.1.0"
+    "tmp": "0.2.0"
   },
   "scripts": {
     "test": "npm run lint && ./node_modules/.bin/tap test/*.js",
